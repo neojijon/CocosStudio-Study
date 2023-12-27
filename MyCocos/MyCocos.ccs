@@ -1,0 +1,23 @@
+<Solution>
+  <PropertyGroup Name="MyCocos" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="bg">
+          <Image Name="background.png" />
+          <Image Name="bg_6.png" />
+        </Folder>
+        <Image Name="Close_Btn.png" />
+        <Project Name="Layer.csd" Type="Layer" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <TTF Name="Maplestory Bold.ttf" />
+        <Image Name="Mode_Rock.png" />
+        <Image Name="Playmode_bg.png" />
+        <Image Name="StartBtn.png" />
+        <Image Name="Title.png" />
+        <Image Name="Title2.png" />
+        <Image Name="Zombie_btn.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
