@@ -22,7 +22,7 @@ bool LobbyScene::init()
         return false;
     }
 
-    rootLayerNode = (Layer*)CSLoader::createNode("Layer.csb");
+    rootLayerNode = (Layer*)CSLoader::createNode("Lobby.csb");
     this->addChild(rootLayerNode);
 
     Button* pMainBtn = (Button*)rootLayerNode->getChildByName("main_btn");
