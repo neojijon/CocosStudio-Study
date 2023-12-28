@@ -8,16 +8,32 @@
           <Image Name="bg_6.png" />
         </Folder>
         <Image Name="Close_Btn.png" />
-        <Project Name="Layer.csd" Type="Layer" />
+        <Image Name="DefenseBtn.png" />
+        <Image Name="Jump_btn.png" />
         <Project Name="Level.csd" Type="Node" />
         <Project Name="LevelSelect.csd" Type="Layer" />
+        <Project Name="Lobby.csd" Type="Layer" />
         <Project Name="MainScene.csd" Type="Scene" />
         <TTF Name="Maplestory Bold.ttf" />
         <Image Name="MenuUi_103.png" />
+        <Image Name="MenuUi_104.png" />
+        <Image Name="MenuUi_105.png" />
+        <Image Name="MenuUi_108.png" />
         <Image Name="MenuUi_124.png" />
         <Image Name="MenuUi_16.png" />
         <Image Name="MenuUi_17.png" />
+        <Image Name="MenuUi_211.png" />
         <Image Name="MenuUi_35.png" />
+        <Image Name="MenuUi_40.png" />
+        <Image Name="MenuUi_41.png" />
+        <Image Name="MenuUi_42.png" />
+        <Image Name="MenuUi_43.png" />
+        <Image Name="MenuUi_44.png" />
+        <Image Name="MenuUi_45.png" />
+        <Image Name="MenuUi_46.png" />
+        <Image Name="MenuUi_47.png" />
+        <Image Name="MenuUi_48.png" />
+        <Image Name="MenuUi_49.png" />
         <Image Name="MenuUi_61.png" />
         <Image Name="MenuUi_63.png" />
         <Image Name="MenuUi_65.png" />

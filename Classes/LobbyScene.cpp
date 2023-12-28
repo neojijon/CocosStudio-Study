@@ -1,6 +1,7 @@
 #include "LobbyScene.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "LevelSelectScene.h"
 #include "IntroScene.h"
 
 USING_NS_CC;
@@ -24,8 +25,13 @@ bool LobbyScene::init()
     rootLayerNode = (Layer*)CSLoader::createNode("Layer.csb");
     this->addChild(rootLayerNode);
 
-    Button* pBtn = (Button*)rootLayerNode->getChildByName("CloseBtn");
-    pBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuCloseCallback, this));
+    Button* pMainBtn = (Button*)rootLayerNode->getChildByName("main_btn");
+    if(pMainBtn)
+        pMainBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuMainCallback, this));
+
+    Button* pCloseBtn = (Button*)rootLayerNode->getChildByName("CloseBtn");
+    if(pCloseBtn)
+        pCloseBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuCloseCallback, this));
 
     //
     //timeline::ActionTimeline* _sampleAnimation;
@@ -35,6 +41,15 @@ bool LobbyScene::init()
     //rootNode->runAction(_sampleAnimation);
 
     return true;
+}
+
+void LobbyScene::menuMainCallback(Ref* pSender)
+{
+    auto director = Director::getInstance();
+
+    auto scene = LevelSelectScene::createScene();
+    //director->replaceScene(TransitionCrossFade::create(2, scene));
+    director->replaceScene(TransitionFade::create(2, scene, Color3B(255, 0, 0)));
 }
 
 

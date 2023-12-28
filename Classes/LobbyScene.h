@@ -1,5 +1,5 @@
-#ifndef __LOBBYSCENE_SCENE_H__
-#define __LOBBYSCENE_SCENE_H__
+#ifndef __LOBBY_SCENE_H__
+#define __LOBBY_SCENE_H__
 
 #include "cocos2d.h"
 
@@ -11,7 +11,7 @@ public:
     virtual bool init();
     
     void menuCloseCallback(cocos2d::Ref* pSender);
-    //void menuBackCallback(cocos2d::Ref* pSender);
+    void menuMainCallback(cocos2d::Ref* pSender);
     
     CREATE_FUNC(LobbyScene);
 
