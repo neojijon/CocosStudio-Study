@@ -46,6 +46,7 @@
         <Image Name="Title.png" />
         <Image Name="Title2.png" />
         <Image Name="Zombie_btn.png" />
+        <Project Name="InGame.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>
