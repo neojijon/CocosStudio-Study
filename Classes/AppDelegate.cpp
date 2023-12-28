@@ -1,6 +1,7 @@
 #include "AppDelegate.h"
 #include "IntroScene.h"
 #include "LobbyScene.h"
+#include "ParallaxDemo.h"
 
 #if USE_AUDIO_ENGINE
 #include "audio/include/AudioEngine.h"
@@ -70,7 +71,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     register_all_packages();
 
-    auto scene = IntroScene::createScene();
+    auto scene = ParallaxDemo::createScene();
     director->runWithScene(scene);
 
     return true;
