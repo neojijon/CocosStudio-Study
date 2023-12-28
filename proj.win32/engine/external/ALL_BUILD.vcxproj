@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D7E5F922-5BCE-38C8-BDE4-1F57A497A3EC}</ProjectGuid>
+    <ProjectGuid>{D05A3EA0-9ACA-36DE-BB78-50913C5939BC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\mycocos2d-x\base\cocos2d\external\CMakeLists.txt">
+    <CustomBuild Include="E:\mycocos2d-x\CocosStudio-Study\cocos2d\external\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/mycocos2d-x/base/cocos2d/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/mycocos2d-x/CocosStudio-Study/cocos2d/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/base -BE:/mycocos2d-x/base/proj.win32 --check-stamp-file E:/mycocos2d-x/base/proj.win32/engine/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/CocosStudio-Study -BE:/mycocos2d-x/CocosStudio-Study/proj.win32 --check-stamp-file E:/mycocos2d-x/CocosStudio-Study/proj.win32/engine/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\mycocos2d-x\base\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/mycocos2d-x/base/cocos2d/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/mycocos2d-x/CocosStudio-Study/cocos2d/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/base -BE:/mycocos2d-x/base/proj.win32 --check-stamp-file E:/mycocos2d-x/base/proj.win32/engine/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/CocosStudio-Study -BE:/mycocos2d-x/CocosStudio-Study/proj.win32 --check-stamp-file E:/mycocos2d-x/CocosStudio-Study/proj.win32/engine/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\mycocos2d-x\base\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/mycocos2d-x/base/cocos2d/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/mycocos2d-x/CocosStudio-Study/cocos2d/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/base -BE:/mycocos2d-x/base/proj.win32 --check-stamp-file E:/mycocos2d-x/base/proj.win32/engine/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/CocosStudio-Study -BE:/mycocos2d-x/CocosStudio-Study/proj.win32 --check-stamp-file E:/mycocos2d-x/CocosStudio-Study/proj.win32/engine/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\mycocos2d-x\base\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/mycocos2d-x/base/cocos2d/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/mycocos2d-x/CocosStudio-Study/cocos2d/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/base -BE:/mycocos2d-x/base/proj.win32 --check-stamp-file E:/mycocos2d-x/base/proj.win32/engine/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/mycocos2d-x/CocosStudio-Study -BE:/mycocos2d-x/CocosStudio-Study/proj.win32 --check-stamp-file E:/mycocos2d-x/CocosStudio-Study/proj.win32/engine/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,61 +160,61 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\mycocos2d-x\base\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\ZERO_CHECK.vcxproj">
-      <Project>{A2DB5D87-D3F3-3985-A383-877EEF983CFC}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{E942BD70-07CB-37CF-8589-93A0B3574201}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
-      <Project>{5174F32F-D96D-39F9-9D67-2296D008776B}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{3D228793-49CD-3595-BB60-31C6F73F62EF}</Project>
       <Name>ext_clipper</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
-      <Project>{8CE01043-A147-3C71-9CB8-F35A2BA578C1}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{3D85D7FA-BE48-32B3-AAF0-1E619955EB01}</Project>
       <Name>ext_convertUTF</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
-      <Project>{3E867153-D3C7-3113-B40C-CBCB595AB802}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{4A731ECE-A424-3F92-AD5D-37EB9D0ADC0F}</Project>
       <Name>ext_edtaa3func</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\md5\ext_md5.vcxproj">
-      <Project>{AAA6B39A-9485-39B5-B38D-512814DC56D6}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{B7B10E83-00E5-3172-8C6A-DA9741363F82}</Project>
       <Name>ext_md5</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
-      <Project>{0A655B56-AE16-3219-B37B-5C72CD855313}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{91EEA471-1C1F-35A6-84C6-0B3DCB4E0AF1}</Project>
       <Name>ext_poly2tri</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\recast\ext_recast.vcxproj">
-      <Project>{7AD7E197-CFC7-34EB-A07B-EDD79028946B}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{01ED9B19-53D9-39EA-9C7D-3B9A25D360F6}</Project>
       <Name>ext_recast</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
-      <Project>{0F17D01A-2DD6-391B-B3EB-062B36577853}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{F0D1D299-B1D1-3D7D-9B52-716941B88A83}</Project>
       <Name>ext_tinyxml2</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
-      <Project>{7970B9D8-5C4B-3040-B129-931B061DB113}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{A69A0BE8-E167-3C6B-AFCB-AF2A7D86A593}</Project>
       <Name>ext_unzip</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
-      <Project>{7CD56116-DF94-3A53-B097-23600933740A}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{93B2DB06-F6B1-31C8-A5EB-12982E956955}</Project>
       <Name>ext_xxhash</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
-      <Project>{7EAC90B0-EAD0-321F-A066-0B1A24A68DFC}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{40EDD42B-5632-383C-BD4F-405A9B7C3B9B}</Project>
       <Name>ext_xxtea</Name>
     </ProjectReference>
-    <ProjectReference Include="E:\mycocos2d-x\base\proj.win32\engine\external\external.vcxproj">
-      <Project>{6BD95E2C-355F-38B6-AE8C-C1D8D7ECB070}</Project>
+    <ProjectReference Include="E:\mycocos2d-x\CocosStudio-Study\proj.win32\engine\external\external.vcxproj">
+      <Project>{938807B1-4447-33A7-9078-C52D43B56464}</Project>
       <Name>external</Name>
     </ProjectReference>
   </ItemGroup>
