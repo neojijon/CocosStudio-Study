@@ -7,7 +7,7 @@
         <LuaEncryptSign Value="" />
         <Android_PackageName Value="org.cocos.MyCocos" />
         <AndroidkeyStore Value="" />
-        <AndroidVersion Value="" />
+        <AndroidVersion Value="android-10" />
         <iOS_Target Value="MyCocos-mobile" />
         <iOS_BundleID Value="" />
         <Platform Value="None" />
@@ -26,17 +26,6 @@
         <LastPublishType Value="Resource" />
         <IsLastPublish Value="True" />
         <LastRunType Value="Windows" />
-      </Value>
-    </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="MainScene.csd" />
-          <FilePathData Path="Lobby.csd" />
-          <FilePathData Path="LevelSelect.csd" />
-          <FilePathData Path="Level.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="LevelSelect.csd" />
       </Value>
     </Item>
   </Properties>
