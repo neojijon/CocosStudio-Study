@@ -9,8 +9,21 @@
         </Folder>
         <Image Name="Close_Btn.png" />
         <Project Name="Layer.csd" Type="Layer" />
+        <Project Name="Level.csd" Type="Node" />
+        <Project Name="LevelSelect.csd" Type="Layer" />
         <Project Name="MainScene.csd" Type="Scene" />
         <TTF Name="Maplestory Bold.ttf" />
+        <Image Name="MenuUi_103.png" />
+        <Image Name="MenuUi_124.png" />
+        <Image Name="MenuUi_16.png" />
+        <Image Name="MenuUi_17.png" />
+        <Image Name="MenuUi_35.png" />
+        <Image Name="MenuUi_61.png" />
+        <Image Name="MenuUi_63.png" />
+        <Image Name="MenuUi_65.png" />
+        <Image Name="MenuUi_69.png" />
+        <Image Name="MenuUi_70.png" />
+        <Image Name="MenuUi_97.png" />
         <Image Name="Mode_Rock.png" />
         <Image Name="Playmode_bg.png" />
         <Image Name="StartBtn.png" />

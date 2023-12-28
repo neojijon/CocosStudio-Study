@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="7" ctype="GameLayerObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="Image_2" ActionTag="462157063" Tag="9" IconVisible="False" LeftMargin="-0.7543" RightMargin="0.7543" TopMargin="2.9548" BottomMargin="-2.9548" LeftEage="316" RightEage="316" TopEage="211" BottomEage="211" Scale9OriginX="316" Scale9OriginY="211" Scale9Width="328" Scale9Height="218" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="bg" ActionTag="462157063" Tag="9" IconVisible="False" LeftMargin="-0.7543" RightMargin="0.7543" TopMargin="2.9548" BottomMargin="-2.9548" LeftEage="316" RightEage="316" TopEage="211" BottomEage="211" Scale9OriginX="316" Scale9OriginY="211" Scale9Width="328" Scale9Height="218" ctype="ImageViewObjectData">
             <Size X="960.0000" Y="640.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="479.2457" Y="317.0452" />
@@ -48,7 +48,7 @@
             <FileData Type="Normal" Path="Mode_Rock.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Mode_Rock_1_1" ActionTag="-1305081942" Tag="12" IconVisible="False" LeftMargin="393.7062" RightMargin="394.2938" TopMargin="302.0794" BottomMargin="233.9206" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Mode_Rock_1_1" ActionTag="-1305081942" Tag="12" IconVisible="False" LeftMargin="393.7002" RightMargin="394.2998" TopMargin="302.0788" BottomMargin="233.9212" ctype="SpriteObjectData">
             <Size X="172.0000" Y="104.0000" />
             <AnchorPoint ScaleX="1.3644" ScaleY="0.4220" />
             <Position X="628.3770" Y="277.8092" />
@@ -74,7 +74,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_2" ActionTag="1953521158" Tag="14" IconVisible="False" LeftMargin="906.4463" RightMargin="11.5537" TopMargin="96.6470" BottomMargin="500.3530" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="12" Scale9Height="21" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="CloseBtn" ActionTag="1953521158" Tag="14" IconVisible="False" LeftMargin="906.4463" RightMargin="11.5537" TopMargin="96.6470" BottomMargin="500.3530" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="12" Scale9Height="21" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="42.0000" Y="43.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="927.4463" Y="521.8530" />

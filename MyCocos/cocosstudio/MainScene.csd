@@ -2,40 +2,7 @@
   <PropertyGroup Name="MainScene" Type="Scene" ID="a2ee0952-26b5-49ae-8bf9-4f1d6279b798" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="40" Speed="1.0000" ActivedAnimationName="titleAni">
-        <Timeline ActionTag="2050852185" Property="Position">
-          <PointFrame FrameIndex="0" X="496.9974" Y="546.2776">
-            <EasingData Type="0" />
-          </PointFrame>
-          <PointFrame FrameIndex="20" X="496.9974" Y="546.2776">
-            <EasingData Type="0" />
-          </PointFrame>
-          <PointFrame FrameIndex="40" X="496.9974" Y="546.2776">
-            <EasingData Type="0" />
-          </PointFrame>
-        </Timeline>
-        <Timeline ActionTag="2050852185" Property="Scale">
-          <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
-            <EasingData Type="0" />
-          </ScaleFrame>
-          <ScaleFrame FrameIndex="20" X="1.1000" Y="1.1000">
-            <EasingData Type="0" />
-          </ScaleFrame>
-          <ScaleFrame FrameIndex="40" X="1.0000" Y="1.0000">
-            <EasingData Type="0" />
-          </ScaleFrame>
-        </Timeline>
-        <Timeline ActionTag="2050852185" Property="RotationSkew">
-          <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
-            <EasingData Type="0" />
-          </ScaleFrame>
-          <ScaleFrame FrameIndex="20" X="0.0000" Y="0.0000">
-            <EasingData Type="0" />
-          </ScaleFrame>
-          <ScaleFrame FrameIndex="40" X="0.0000" Y="0.0000">
-            <EasingData Type="0" />
-          </ScaleFrame>
-        </Timeline>
+      <Animation Duration="40" Speed="1.0000" ActivedAnimationName="StartbtnAni">
         <Timeline ActionTag="-1342457979" Property="Position">
           <PointFrame FrameIndex="0" X="816.3298" Y="45.7483">
             <EasingData Type="0" />
@@ -58,9 +25,6 @@
       <AnimationList>
         <AnimationInfo Name="StartbtnAni" StartIndex="0" EndIndex="40">
           <RenderColor A="255" R="222" G="184" B="135" />
-        </AnimationInfo>
-        <AnimationInfo Name="titleAni" StartIndex="0" EndIndex="60">
-          <RenderColor A="255" R="112" G="128" B="144" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Scene" ctype="GameNodeObjectData">
