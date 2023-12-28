@@ -12,11 +12,6 @@ Scene* HelloWorld::createScene()
     return HelloWorld::create();
 }
 
-static void problemLoading(const char* filename)
-{
-    printf("Error while loading: %s\n", filename);
-    printf("Depending on how you compiled you might have to add 'Resources/' in front of filenames in HelloWorldScene.cpp\n");
-}
 
 bool HelloWorld::init()
 {
@@ -47,10 +42,19 @@ bool HelloWorld::init()
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
-    this->removeChild((Node*)rootNode);
+    //this->removeChild((Node*)rootNode);   
+    rootNode->setVisible(false);
+
+    if (!rootLayerNode)
+    {
+        rootLayerNode = CSLoader::createNode("Layer.csb");
+        this->addChild(rootLayerNode);
+    }
+    else
+    {
+        rootLayerNode->setVisible(true);
+    }   
     
-    rootLayerNode = CSLoader::createNode("Layer.csb");
-    this->addChild(rootLayerNode);
         
     Button* pBtn = (Button*)rootLayerNode->getChildByName("Button_2");
     pBtn->addClickEventListener(CC_CALLBACK_1(HelloWorld::menuBackCallback, this));
@@ -60,9 +64,18 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
 
 void HelloWorld::menuBackCallback(Ref* pSender)
 {
-    this->removeChild(rootLayerNode);
-    rootNode = (Scene*)CSLoader::createNode("MainScene.csb");
-    this->addChild(rootNode);
+    //this->removeChild(rootLayerNode);
+    rootLayerNode->setVisible(false);
+
+    if (!rootNode)
+    {
+        rootNode = (Scene*)CSLoader::createNode("MainScene.csb");
+        this->addChild(rootNode);
+    }
+    else
+    {
+        rootNode->setVisible(true);
+    }    
 
     Button* pBtn = (Button*)rootNode->getChildByName("StartBtn");
     pBtn->addClickEventListener(CC_CALLBACK_1(HelloWorld::menuCloseCallback, this));

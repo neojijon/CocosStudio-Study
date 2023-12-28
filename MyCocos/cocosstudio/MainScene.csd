@@ -2,7 +2,40 @@
   <PropertyGroup Name="MainScene" Type="Scene" ID="a2ee0952-26b5-49ae-8bf9-4f1d6279b798" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
-      <Animation Duration="40" Speed="1.0000" ActivedAnimationName="StartbtnAni">
+      <Animation Duration="40" Speed="1.0000" ActivedAnimationName="titleAni">
+        <Timeline ActionTag="2050852185" Property="Position">
+          <PointFrame FrameIndex="0" X="496.9974" Y="546.2776">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="20" X="496.9974" Y="546.2776">
+            <EasingData Type="0" />
+          </PointFrame>
+          <PointFrame FrameIndex="40" X="496.9974" Y="546.2776">
+            <EasingData Type="0" />
+          </PointFrame>
+        </Timeline>
+        <Timeline ActionTag="2050852185" Property="Scale">
+          <ScaleFrame FrameIndex="0" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="20" X="1.1000" Y="1.1000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="40" X="1.0000" Y="1.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
+        <Timeline ActionTag="2050852185" Property="RotationSkew">
+          <ScaleFrame FrameIndex="0" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="20" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+          <ScaleFrame FrameIndex="40" X="0.0000" Y="0.0000">
+            <EasingData Type="0" />
+          </ScaleFrame>
+        </Timeline>
         <Timeline ActionTag="-1342457979" Property="Position">
           <PointFrame FrameIndex="0" X="816.3298" Y="45.7483">
             <EasingData Type="0" />
@@ -24,13 +57,16 @@
       </Animation>
       <AnimationList>
         <AnimationInfo Name="StartbtnAni" StartIndex="0" EndIndex="40">
-          <RenderColor A="150" R="222" G="184" B="135" />
+          <RenderColor A="255" R="222" G="184" B="135" />
+        </AnimationInfo>
+        <AnimationInfo Name="titleAni" StartIndex="0" EndIndex="60">
+          <RenderColor A="255" R="112" G="128" B="144" />
         </AnimationInfo>
       </AnimationList>
       <ObjectData Name="Scene" ctype="GameNodeObjectData">
         <Size X="960.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="Image_1" ActionTag="1677859838" Tag="3" IconVisible="False" LeftMargin="2.6195" RightMargin="-2.6195" TopMargin="0.0519" BottomMargin="-0.0518" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="930" Scale9Height="610" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="1677859838" Tag="3" IconVisible="False" LeftMargin="2.6195" RightMargin="-2.6195" TopMargin="0.0518" BottomMargin="-0.0518" LeftEage="15" RightEage="15" TopEage="15" BottomEage="15" Scale9OriginX="15" Scale9OriginY="15" Scale9Width="930" Scale9Height="610" ctype="ImageViewObjectData">
             <Size X="960.0000" Y="640.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="482.6195" Y="319.9482" />
@@ -50,7 +86,7 @@
             <PreSize X="0.6156" Y="0.1906" />
             <FileData Type="Normal" Path="Title2.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="StartBtn" ActionTag="-1342457979" Tag="5" IconVisible="False" LeftMargin="736.3298" RightMargin="63.6702" TopMargin="561.2518" BottomMargin="12.7483" TouchEnable="True" FontSize="36" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="130" Scale9Height="44" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="StartBtn" ActionTag="-1342457979" Tag="5" IconVisible="False" LeftMargin="736.3298" RightMargin="63.6702" TopMargin="561.2517" BottomMargin="12.7483" TouchEnable="True" FontSize="36" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="130" Scale9Height="44" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="160.0000" Y="66.0000" />
             <Children>
               <AbstractNodeData Name="Text_1" ActionTag="-1256464442" Tag="6" IconVisible="False" LeftMargin="15.2598" RightMargin="54.7402" TopMargin="12.6421" BottomMargin="17.3579" FontSize="32" LabelText="Start" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">

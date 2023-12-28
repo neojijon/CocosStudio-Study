@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+/cocos2d
+/proj.linux
+/proj.ios_mac
+/proj.android
+/proj.win32/Win32/Debug
+/proj.win32/myproject4.dir/Debug
+/proj.win32/lib/Debug
+/proj.win32/engine
+/proj.win32/Debug
+/proj.win32/.vs/myproject4/v16
+/proj.win32/bin/myproject4/Debug
+/proj.win32/CMakeFiles
