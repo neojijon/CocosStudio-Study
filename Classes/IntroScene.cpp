@@ -21,6 +21,7 @@ bool IntroScene::init()
         return false;
     }
 
+
     rootNode = (Scene*) CSLoader::createNode("MainScene.csb");
     this->addChild(rootNode);
 

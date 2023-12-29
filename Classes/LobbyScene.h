@@ -9,6 +9,10 @@ public:
     static cocos2d::Scene* createScene();
 
     virtual bool init();
+
+    void menuPopupCallback(Ref* pSender);
+
+    void menuShopCloseCallback(Ref* pSender);
     
     void menuCloseCallback(cocos2d::Ref* pSender);
     void menuMainCallback(cocos2d::Ref* pSender);
@@ -18,6 +22,7 @@ public:
 private:
     /*Scene* rootNode;*/
     Node* rootLayerNode;
+    Node* PopupNode;
 
 };
 

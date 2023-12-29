@@ -33,6 +33,10 @@ bool LobbyScene::init()
     if(pCloseBtn)
         pCloseBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuCloseCallback, this));
 
+    Button* pPopupBtn = (Button*)rootLayerNode->getChildByName("PopupBtn");
+    if (pPopupBtn)
+        pPopupBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuPopupCallback, this));
+
     //
     //timeline::ActionTimeline* _sampleAnimation;
     //_sampleAnimation = cocos2d::CSLoader::createTimeline("MainScene.csb");
@@ -41,6 +45,33 @@ bool LobbyScene::init()
     //rootNode->runAction(_sampleAnimation);
 
     return true;
+}
+
+void LobbyScene::menuPopupCallback(Ref* pSender)
+{
+    if (!PopupNode)
+    {
+        PopupNode = CSLoader::createNode("Popup.csb");
+        this->addChild(PopupNode);
+    }
+    else
+    {
+        PopupNode->setVisible(true);
+    }
+
+    Button* pPopupCloseBtn = (Button*)PopupNode->getChildByName("ShopCloseBtn");
+    if (pPopupCloseBtn)
+        pPopupCloseBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuShopCloseCallback, this));
+
+}
+
+void LobbyScene::menuShopCloseCallback(Ref* pSender)
+{
+    //this->removeChild(PopupNode);
+    if (PopupNode)
+    {
+        PopupNode->setVisible(false);
+    }
 }
 
 void LobbyScene::menuMainCallback(Ref* pSender)
@@ -61,31 +92,4 @@ void LobbyScene::menuCloseCallback(Ref* pSender)
     //director->replaceScene(TransitionCrossFade::create(2, scene));
     director->replaceScene(TransitionFade::create(2, scene, Color3B(255, 0, 0)));
 
-
-    ////this->removeChild(rootLayerNode);
-
-    //rootLayerNode->setVisible(false);
-    ////rootNode = (Scene*)CSLoader::createNode("MainScene.csb");
-    ////this->addChild(rootNode);
-
-    //if (rootNode)
-    //{
-    //    rootNode->setVisible(true);
-    //}
-    //else
-    //{
-    //    rootNode = (Scene*)CSLoader::createNode("MainScene.csb");
-    //    this->addChild(rootNode);
-    //}
-    //
-
-    //Button* pBtn = (Button*)rootNode->getChildByName("StartBtn");
-    //pBtn->addClickEventListener(CC_CALLBACK_1(LobbyScene::menuCloseCallback, this));
-
-    //timeline::ActionTimeline* _sampleAnimation;
-    //_sampleAnimation = cocos2d::CSLoader::createTimeline("MainScene.csb");
-
-
-    //_sampleAnimation->gotoFrameAndPlay(0, true);
-    //rootNode->runAction(_sampleAnimation);
 }
