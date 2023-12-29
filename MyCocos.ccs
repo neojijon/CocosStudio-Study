@@ -1,0 +1,200 @@
+<Solution>
+  <PropertyGroup Name="MyCocos" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="bg">
+          <Image Name="background.png" />
+          <Image Name="bg_6.png" />
+        </Folder>
+        <Folder Name="Shop">
+          <Project Name="Item.csd" Type="Node" />
+          <Image Name="MenuU_113.png" />
+          <Image Name="MenuUi_100.png" />
+          <Image Name="MenuUi_111.png" />
+          <Image Name="MenuUi_159.png" />
+          <Image Name="MenuUi_160.png" />
+          <Image Name="MenuUi_161.png" />
+          <Image Name="MenuUi_162.png" />
+          <Image Name="MenuUi_163.png" />
+          <Image Name="MenuUi_164.png" />
+          <Image Name="MenuUi_165.png" />
+          <Image Name="MenuUi_166.png" />
+          <Image Name="MenuUi_167.png" />
+          <Image Name="MenuUi_168.png" />
+          <Image Name="MenuUi_169.png" />
+          <Image Name="MenuUi_170.png" />
+          <Image Name="MenuUi_171.png" />
+        </Folder>
+        <Folder Name="Sounds">
+          <Audio Name="0.wav" />
+          <Audio Name="1.wav" />
+          <Audio Name="10.wav" />
+          <Audio Name="11.wav" />
+          <Audio Name="12.wav" />
+          <Audio Name="13.wav" />
+          <Audio Name="14.wav" />
+          <Audio Name="15.wav" />
+          <Audio Name="16.wav" />
+          <Audio Name="17.wav" />
+          <Audio Name="18.wav" />
+          <Audio Name="19.wav" />
+          <Audio Name="2.wav" />
+          <Audio Name="20.wav" />
+          <Audio Name="21.wav" />
+          <Audio Name="22.wav" />
+          <Audio Name="23.wav" />
+          <Audio Name="24.wav" />
+          <Audio Name="25.wav" />
+          <Audio Name="26.wav" />
+          <Audio Name="27.wav" />
+          <Audio Name="28.wav" />
+          <Audio Name="29.wav" />
+          <Audio Name="3.wav" />
+          <Audio Name="30.wav" />
+          <Audio Name="31.wav" />
+          <Audio Name="32.wav" />
+          <Audio Name="33.wav" />
+          <Audio Name="34.wav" />
+          <Audio Name="35.wav" />
+          <Audio Name="36.wav" />
+          <Audio Name="37.wav" />
+          <Audio Name="38.wav" />
+          <Audio Name="39.wav" />
+          <Audio Name="4.wav" />
+          <Audio Name="40.wav" />
+          <Audio Name="41.wav" />
+          <Audio Name="42.wav" />
+          <Audio Name="43.wav" />
+          <Audio Name="44.wav" />
+          <Audio Name="45.wav" />
+          <Audio Name="46.wav" />
+          <Audio Name="47.wav" />
+          <Audio Name="48.wav" />
+          <Audio Name="49.wav" />
+          <Audio Name="5.wav" />
+          <Audio Name="50.wav" />
+          <Audio Name="51.wav" />
+          <Audio Name="52.wav" />
+          <Audio Name="53.wav" />
+          <Audio Name="54.wav" />
+          <Audio Name="55.wav" />
+          <Audio Name="56.wav" />
+          <Audio Name="57.wav" />
+          <Audio Name="58.wav" />
+          <Audio Name="59.wav" />
+          <Audio Name="6.wav" />
+          <Audio Name="60.wav" />
+          <Audio Name="61.wav" />
+          <Audio Name="62.wav" />
+          <Audio Name="63.wav" />
+          <Audio Name="64.wav" />
+          <Audio Name="65.wav" />
+          <Audio Name="66.wav" />
+          <Audio Name="67.wav" />
+          <Audio Name="68.wav" />
+          <Audio Name="69.wav" />
+          <Audio Name="7.wav" />
+          <Audio Name="70.wav" />
+          <Audio Name="71.wav" />
+          <Audio Name="72.wav" />
+          <Audio Name="73.wav" />
+          <Audio Name="74.wav" />
+          <Audio Name="8.wav" />
+          <Audio Name="9.wav" />
+          <Audio Name="BGM1.mp3" />
+          <Audio Name="BGM2.mp3" />
+          <Audio Name="MENU.mp3" />
+        </Folder>
+        <Folder Name="TileMaps">
+          <TmxFile Name="hexa-axis-x.tmx" />
+          <TmxFile Name="hexagonal-mini-even-x.tmx" />
+          <TmxFile Name="hexagonal-mini-even-y.tmx" />
+          <TmxFile Name="hexagonal-mini-odd-x.tmx" />
+          <TmxFile Name="hexagonal-mini-odd-y.tmx" />
+          <TmxFile Name="hexa-test.tmx" />
+          <TmxFile Name="iso-test.tmx" />
+          <TmxFile Name="iso-test1.tmx" />
+          <TmxFile Name="iso-test2.tmx" />
+          <TmxFile Name="iso-test2-uncompressed.tmx" />
+          <TmxFile Name="iso-test-bug787.tmx" />
+          <TmxFile Name="iso-test-movelayer.tmx" />
+          <TmxFile Name="iso-test-objectgroup.tmx" />
+          <TmxFile Name="iso-test-vertexz.tmx" />
+          <TmxFile Name="iso-test-zorder.tmx" />
+          <TmxFile Name="issue_16512.tmx" />
+          <TmxFile Name="issue16105.tmx" />
+          <File Name="levelmap.tga" />
+          <TmxFile Name="orthogonal-test1.tmx" />
+          <TmxFile Name="orthogonal-test2.tmx" />
+          <TmxFile Name="orthogonal-test3.tmx" />
+          <TmxFile Name="orthogonal-test4.tmx" />
+          <TmxFile Name="orthogonal-test4-hd.tmx" />
+          <TmxFile Name="orthogonal-test5.tmx" />
+          <TmxFile Name="orthogonal-test5-csv.tmx" />
+          <TmxFile Name="orthogonal-test6.tmx" />
+          <TmxFile Name="orthogonal-test6-hd.tmx" />
+          <TmxFile Name="orthogonal-test-movelayer.tmx" />
+          <TmxFile Name="orthogonal-test-vertexz.tmx" />
+          <TmxFile Name="orthogonal-test-zorder.tmx" />
+          <TmxFile Name="ortho-objects.tmx" />
+          <TmxFile Name="ortho-rotation-test.tmx" />
+          <TmxFile Name="ortho-tile-property.tmx" />
+          <TmxFile Name="test-object-layer.tmx" />
+          <TmxFile Name="test-staggered.tmx" />
+          <TmxFile Name="tile_iso_offset.tmx" />
+          <Image Name="tiles.png" />
+          <Image Name="tiles-hd.png" />
+          <TmxFile Name="xml-test.tmx" />
+        </Folder>
+        <Image Name="Close_Btn.png" />
+        <Image Name="DefenseBtn.png" />
+        <TmxFile Name="hexa-axis-x.tmx" />
+        <Project Name="InGame.csd" Type="Layer" />
+        <Image Name="Jump_btn.png" />
+        <Project Name="Level.csd" Type="Node" />
+        <Project Name="LevelSelect.csd" Type="Layer" />
+        <Project Name="Lobby.csd" Type="Layer" />
+        <Image Name="MainRewardBox.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+        <TTF Name="Maplestory Bold.ttf" />
+        <Image Name="MenuUi_103.png" />
+        <Image Name="MenuUi_104.png" />
+        <Image Name="MenuUi_105.png" />
+        <Image Name="MenuUi_108.png" />
+        <Image Name="MenuUi_124.png" />
+        <Image Name="MenuUi_16.png" />
+        <Image Name="MenuUi_17.png" />
+        <Image Name="MenuUi_211.png" />
+        <Image Name="MenuUi_35.png" />
+        <Image Name="MenuUi_40.png" />
+        <Image Name="MenuUi_41.png" />
+        <Image Name="MenuUi_42.png" />
+        <Image Name="MenuUi_43.png" />
+        <Image Name="MenuUi_44.png" />
+        <Image Name="MenuUi_45.png" />
+        <Image Name="MenuUi_46.png" />
+        <Image Name="MenuUi_47.png" />
+        <Image Name="MenuUi_48.png" />
+        <Image Name="MenuUi_49.png" />
+        <Image Name="MenuUi_61.png" />
+        <Image Name="MenuUi_63.png" />
+        <Image Name="MenuUi_65.png" />
+        <Image Name="MenuUi_69.png" />
+        <Image Name="MenuUi_70.png" />
+        <Image Name="MenuUi_74.png" />
+        <Image Name="MenuUi_75.png" />
+        <Image Name="MenuUi_76.png" />
+        <Image Name="MenuUi_97.png" />
+        <Image Name="Mode_Rock.png" />
+        <Image Name="Playmode_bg.png" />
+        <Project Name="Popup.csd" Type="Layer" />
+        <Project Name="Shop.csd" Type="Layer" />
+        <Image Name="StartBtn.png" />
+        <Image Name="Title.png" />
+        <Image Name="Title2.png" />
+        <Image Name="Zombie_btn.png" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
