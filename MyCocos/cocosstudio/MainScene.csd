@@ -80,6 +80,16 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
+          <AbstractNodeData Name="LoadingBar_1" ActionTag="-715246207" Tag="303" IconVisible="False" LeftMargin="345.1258" RightMargin="414.8743" TopMargin="510.9869" BottomMargin="115.0131" ctype="LoadingBarObjectData">
+            <Size X="200.0000" Y="14.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="445.1258" Y="122.0131" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.4637" Y="0.1906" />
+            <PreSize X="0.2083" Y="0.0219" />
+            <ImageFileData Type="Default" Path="Default/LoadingBarFile.png" Plist="" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>

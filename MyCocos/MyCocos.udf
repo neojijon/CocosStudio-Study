@@ -36,8 +36,10 @@
           <FilePathData Path="LevelSelect.csd" />
           <FilePathData Path="Level.csd" />
           <FilePathData Path="InGame.csd" />
+          <FilePathData Path="Shop.csd" />
+          <FilePathData Path="Popup.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="InGame.csd" />
+        <ActiveDocument Path="MainScene.csd" />
       </Value>
     </Item>
   </Properties>

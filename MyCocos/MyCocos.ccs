@@ -9,10 +9,12 @@
         </Folder>
         <Image Name="Close_Btn.png" />
         <Image Name="DefenseBtn.png" />
+        <Project Name="InGame.csd" Type="Layer" />
         <Image Name="Jump_btn.png" />
         <Project Name="Level.csd" Type="Node" />
         <Project Name="LevelSelect.csd" Type="Layer" />
         <Project Name="Lobby.csd" Type="Layer" />
+        <Image Name="MainRewardBox.png" />
         <Project Name="MainScene.csd" Type="Scene" />
         <TTF Name="Maplestory Bold.ttf" />
         <Image Name="MenuUi_103.png" />
@@ -39,14 +41,18 @@
         <Image Name="MenuUi_65.png" />
         <Image Name="MenuUi_69.png" />
         <Image Name="MenuUi_70.png" />
+        <Image Name="MenuUi_74.png" />
+        <Image Name="MenuUi_75.png" />
+        <Image Name="MenuUi_76.png" />
         <Image Name="MenuUi_97.png" />
         <Image Name="Mode_Rock.png" />
         <Image Name="Playmode_bg.png" />
+        <Project Name="Popup.csd" Type="Layer" />
+        <Project Name="Shop.csd" Type="Layer" />
         <Image Name="StartBtn.png" />
         <Image Name="Title.png" />
         <Image Name="Title2.png" />
         <Image Name="Zombie_btn.png" />
-        <Project Name="InGame.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

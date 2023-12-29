@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Layer" Type="Layer" ID="c49a363c-92e6-4a06-b01a-34d78dfd1639" Version="3.10.0.0" />
+  <PropertyGroup Name="Lobby" Type="Layer" ID="c49a363c-92e6-4a06-b01a-34d78dfd1639" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -16,7 +16,7 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="bg/bg_6.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Image_1" ActionTag="1539009122" Tag="8" IconVisible="False" LeftMargin="10.0883" RightMargin="5.9116" TopMargin="86.8892" BottomMargin="81.1108" LeftEage="311" RightEage="311" TopEage="155" BottomEage="155" Scale9OriginX="311" Scale9OriginY="155" Scale9Width="322" Scale9Height="162" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="1539009122" Tag="8" IconVisible="False" LeftMargin="10.0883" RightMargin="5.9117" TopMargin="86.8892" BottomMargin="81.1108" LeftEage="311" RightEage="311" TopEage="155" BottomEage="155" Scale9OriginX="311" Scale9OriginY="155" Scale9Width="322" Scale9Height="162" ctype="ImageViewObjectData">
             <Size X="944.0000" Y="472.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="482.0883" Y="317.1108" />
@@ -74,7 +74,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="zombi_btn" ActionTag="1822070331" Tag="13" IconVisible="False" LeftMargin="220.4925" RightMargin="581.5074" TopMargin="481.4086" BottomMargin="98.5914" TouchEnable="True" FontSize="24" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="128" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="zombi_btn" ActionTag="1822070331" Tag="13" IconVisible="False" LeftMargin="220.4925" RightMargin="581.5075" TopMargin="481.4086" BottomMargin="98.5914" TouchEnable="True" FontSize="24" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="128" Scale9Height="38" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="158.0000" Y="60.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="299.4925" Y="128.5914" />
@@ -133,6 +133,21 @@
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
             <NormalFileData Type="Normal" Path="MenuUi_211.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="PopupBtn" ActionTag="-1434335145" Tag="300" IconVisible="False" LeftMargin="852.1266" RightMargin="41.8734" TopMargin="19.3454" BottomMargin="554.6546" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="36" Scale9Height="44" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="66.0000" Y="66.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="885.1266" Y="587.6546" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.9220" Y="0.9182" />
+            <PreSize X="0.0688" Y="0.1031" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
+            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <NormalFileData Type="Normal" Path="MenuUi_76.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
