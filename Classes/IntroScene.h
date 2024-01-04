@@ -9,17 +9,26 @@ public:
     static cocos2d::Scene* createScene();
 
     virtual bool init();
+
+    virtual void onEnter();
+    virtual void onExit();
     
     void menuCloseCallback(cocos2d::Ref* pSender);
     //void menuBackCallback(cocos2d::Ref* pSender);
 
-    virtual void onExit() override;
+
+    cocos2d::EventListenerKeyboard* _listener;
+    void onKeyPressed(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);
+    void onKeyReleased(cocos2d::EventKeyboard::KeyCode keyCode, cocos2d::Event* event);
+    float m_x;
     
     CREATE_FUNC(IntroScene);
 
 private:
     Scene* rootNode;
     Node* rootLayerNode;
+
+    cocos2d::Sprite* m_pSprite;
 
 };
 
