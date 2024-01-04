@@ -6,9 +6,10 @@
 #include "ui/CocosGUI.h"
 #include "Renderer/CCTextureAtlas.h"
 #include "kSprite.h"
-#include "kScene.h"
+//#include "kScene.h"
 #include<string>
 #include "dataLoad.h"
+#include "kConst.h"
 
 
 //
@@ -67,7 +68,7 @@
 #define MMAX_Y 170
 
 
-class MapScene : public kScene
+class MapScene : public Scene
 {
 public:
     static cocos2d::Scene* createScene();
@@ -76,11 +77,13 @@ public:
 
     void Tileimg(int ani, int Px, int Py, int dr, float Papa, float bg);
 
-    Sprite* Spritecreate(const std::string& filename);
+    kSprite* Spritecreate(const std::string& filename);
 
-    Sprite* makeSprite(int type, std::string file, int dir);
+    kSprite* makeSprite(int type, std::string file, int dir=0);
 
-    Sprite* createSpriteImage(std::string imgName, int im);
+    kSprite* createImage(std::string imgName, int im);
+
+    int sizeXXYY(int xy, float sb);
 
     void TileImg_rotateImage(int img, int x, int x1, int x2, int y, float alfa, int dr, float bg, int dt, int rcx, int rcy, int rot);
 
@@ -88,7 +91,11 @@ public:
 
     void GStage(int sg, int ty);
 
+    kSprite* getSprite(int type, int idx, int frm, kSprite* ori);
+
     void GPlayloop();
+
+    //void GPlayloop();
     
     CREATE_FUNC(MapScene);
 
@@ -96,6 +103,8 @@ public:
 
 
 protected:
+
+    std::map<int, kSprite*> sprDat;
     int TileData1[14000]; //타일 데이타1
     int TileData2[16000]; //타일 데이타2
 
@@ -103,6 +112,7 @@ protected:
     int TileImg_Xdata[550];// 타일이미지 사이즈
     int TileImg_Ydata[550];// 타일이미지 사이즈
 
+    int sprno[MAX_SPR], sprst[MAX_SPR];
     int Gamemap[2700][180];   
     int Gstg = 0, Gstgtim = 0, Endstg = 0;
     int BGnum = 0, BGnum_Y = 0;
