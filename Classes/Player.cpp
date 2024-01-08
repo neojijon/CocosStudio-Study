@@ -1,6 +1,6 @@
 #include "Player.h"
 
-Player::Player(): currentAnimation("")
+Player::Player()
 {
 }
 
@@ -30,7 +30,7 @@ bool Player::init()
 	createAnimation("Shooting", "player/Shooting/", 7, 0.1f);
 
 	// 기본 애니메이션 설정
-	playAnimation("Victory");
+	playAnimation("Walking");
 
 	return true;
 }
@@ -50,44 +50,6 @@ void Player::move(cocos2d::Vec2 direction)
 	{
 		playAnimation("Idle");
 	}
-}
-
-// 애니메이션 실행 함수
-void Player::playAnimation(const std::string& animationName)
-{
-	if (currentAnimation == animationName)
-	{
-		// 이미 플레이 중인 애니메이션이라면 중복 실행하지 않음
-		return;
-	}
-
-	auto animation = animationList.find(animationName);
-	if (animation != animationList.end())
-	{
-		this->stopAllActions();
-		auto animate = cocos2d::Animate::create(animation->second);
-		this->runAction(cocos2d::RepeatForever::create(animate));
-		currentAnimation = animationName;
-	}
-}
-
-
-
-void Player::createAnimation(const std::string& animationName, const std::string& fileName, int frameCount, float delay)
-{
-	auto animation = cocos2d::Animation::create();
-	animation->setDelayPerUnit(delay);
-
-	for (int i = 0; i <= frameCount; ++i)
-	{
-		std::string frameName = fileName + std::to_string(i) + ".png";
-		animation->addSpriteFrameWithFile(frameName);
-	}
-
-	animation->setRestoreOriginalFrame(true);
-	animation->retain();
-
-	animationList[animationName] = animation;
 }
 
 
